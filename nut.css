@@ -1,0 +1,50 @@
+.container {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 50px auto;
+    max-width: 400px;
+    background-color: #D4E7C5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+* {
+    background-color: #E1F0DA;
+}
+h3 {
+    background-color: #D4E7C5;
+}
+.meal1 {
+    display: flex;
+    margin: 2px;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #D4E7C5; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.nutrients {
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.nutrients div {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 3px auto;
+    padding: 2px;
+}
+/* @media (min-width: 600px) {
+    .container {
+      max-width: 800px;
+    }
+  } */
+
+a {
+    /* background-color: #E2BFB3; */
+    color: black;
+    cursor: pointer;
+    background-color: #E1F0DA;
+
+}
